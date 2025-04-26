@@ -47,11 +47,8 @@ Encryption Type Display: Displays the encryption type (Open, WPA, WPA2, WPA3, et
 
 ## Hardware Required
 ESP8266 (e.g., NodeMCU, Wemos D1 Mini)
-
 OLED Display (128x64, I2C)
-
 Push Button (for triggering Wi-Fi scan)
-
 Jumper wires and breadboard (optional)
 
 ## Software Required
@@ -60,28 +57,21 @@ Arduino IDE
 ## Libraries:
 
 ESP8266WiFi.h 
-
 Wire.h 
-
 Adafruit_GFX.h 
-
 Adafruit_SSD1306.h 
 
 ## Wiring
 OLED Display:
 
 VCC to 3.3V (on ESP8266)
-
 GND to GND
-
 SCL to D1 (GPIO5)
-
 SDA to D2 (GPIO4)
 
 Button:
 
 One side of the button connected to D3 (GPIO0)
-
 The other side connected to GND
 
 ## Installation
